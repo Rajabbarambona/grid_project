@@ -130,3 +130,34 @@ img {
     padding-bottom: 3rem;
     padding-inline: 1rem;
 }
+
+
+/* TEXT SECTION AREA */
+
+.text_section {
+    color: #000;
+    padding: 1em 0;
+}
+
+.section4_left_text p,
+.section4_right_text p,
+.contact p {
+    color: #fff;
+    padding-inline: 1rem;
+}
+
+.section4_right_text {
+    background-color: #333;
+    padding-bottom: 3rem;
+}
+
+.section4_left_text {
+    padding-bottom: 3rem;
+    background-color: hsl(203, 70%, 49%);
+}
+
+.section4_right_text h2,
+.section4_left_text h2 {
+    color: #fff;
+    padding-top: 3rem;
+}
