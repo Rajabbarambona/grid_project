@@ -161,3 +161,90 @@ img {
     color: #fff;
     padding-top: 3rem;
 }
+
+
+/* FOOTER SECTION */
+
+.footer_section {
+    padding: 2em;
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.contact {
+    padding-top: 2rem;
+}
+
+span {
+    color: #2690d4;
+}
+
+@media(min-width:700px) {
+    .hero,
+    .cards_grid,
+    .grid_section1_content,
+    .grid_section3_content,
+    .grid_section4_content,
+    .footer_section {
+        display: flex;
+        justify-content: center;
+    }
+    .grid_section4_content>div,
+    .footer_section>div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+    }
+    .grid_section1_text {
+        columns: 2;
+        column-gap: 2em;
+    }
+    .cards_grid ul {
+        /* grid-template-columns: 1fr; */
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        max-width: 700px;
+        gap: 1em;
+    }
+    .content-wrap {
+        max-width: 900px;
+    }
+    .cards_grid ul li {
+        width: 50%;
+    }
+    .cards_grid {
+        grid-template-columns: 1fr;
+        display: flex;
+        justify-content: center;
+    }
+    .text_section4right {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* GRID TEMPLATES AREAS
+.container {
+    display: grid;
+    grid-auto-rows: auto;
+grid-template-columns: 1fr 2fr 2fr 1fr;
+grid-template-areas: "header header header header" 
+"main main main main" 
+"footer footer footer footer"; 
+}
+.header {
+grid-area: header;
+}
+
+.main {
+grid-area: main;
+}
+
+.footer_section {
+grid-area: footer;
+} 
+
+*/
