@@ -88,6 +88,16 @@ h3 {
     z-index: -2;
 }
 
+.grid_section1_content,
+.grid_section3_content,
+.section4_right_text {
+    background-color: #fff;
+}
+
+.cards_grid {
+    margin-top: 2em;
+}
+
 .cards_grid ul {
     list-style: none;
     background: #333;
