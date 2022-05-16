@@ -30,7 +30,7 @@ h3 {
 }
 
 .hero {
-    background: url(./assets/images/pexels-photos1.png);
+    background: url('../pics/images/pexels-photos1.png');
     position: absolute;
     background-position: center;
     background-repeat: no-repeat;
